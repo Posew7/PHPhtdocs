@@ -38,4 +38,18 @@ print_r($siteler);
 
 print $siteler["kategori"]["eğitim"][0];
 
+define("uye",[
+    "ad" => "yunus",
+    "soyad" => "üstün",
+    "meslek" => "öğrenci",
+    "yaş" => "23",
+    "sporlar" => [
+        "fitness",
+        "boks"
+    ]
+]);
+
+print_r(uye);
+print uye["sporlar"][1];
+
 ?>
