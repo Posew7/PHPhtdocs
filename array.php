@@ -20,4 +20,22 @@ print_r($kimlik);
 
 print $kimlik["ad"];
 
+print "<br>";
+
+$siteler = array("kategori" => [
+    "e-ticaret" => [
+        "hepsiburada",
+        "n11",
+        "sahibinden"
+    ],
+    "eğitim" => [
+        "udemy",
+        "protürk"
+    ]
+]);
+
+print_r($siteler);
+
+print $siteler["kategori"]["eğitim"][0];
+
 ?>
