@@ -2,11 +2,11 @@
 
 $sayi = 7;
 
-if ($sayi == 5){
+if ($sayi == 5) {
     print "\$sayi = 5";
-} elseif($sayi == 7){
+} elseif ($sayi == 7) {
     print "\$sayi = 7";
-} else{
+} else {
     print "hiçbiri değil";
 }
 

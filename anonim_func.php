@@ -1,36 +1,37 @@
 <?php
 
-$anonim = function($a,$b){
-    return $a+$b;
+$anonim = function ($a, $b) {
+    return $a + $b;
 };
 
-print $anonim(1,3);
+print $anonim(1, 3);
 
 $func_array = [
-    function(){
+    function () {
         return "1. func";
     },
-    function(){
+    function () {
         return "2. func";
     },
-    function(){
+    function () {
         return "3. func";
     }
 ];
 
 print_r($func_array);
 
-print $func_array[rand(0,2)]();
+print $func_array[rand(0, 2)]();
 
 $sayi = 7;
 
-function filt($i){
+function filt($i)
+{
     return $i . " " . 7;
 }
 
-$dizi = ["p","o","s","e","w"];
-$dizi = array_map(function($is) use($sayi){
+$dizi = ["p", "o", "s", "e", "w"];
+$dizi = array_map(function ($is) use ($sayi) {
     return $is . " " . $sayi;
-},$dizi);
+}, $dizi);
 
 print_r($dizi);

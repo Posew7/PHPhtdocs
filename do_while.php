@@ -1,6 +1,6 @@
 <?php
 $i = 0;
-do{
+do {
     print $i . "<br>";
     $i++;
 } while ($i < 8);
