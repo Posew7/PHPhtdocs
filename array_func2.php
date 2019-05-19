@@ -31,3 +31,13 @@ $arr = [
 $arr = array_reverse($arr);
 //print_r($arr);
 $arr = array_reverse($arr);
+
+$arr = [1,1,2,2,2,3,3,4,5,2,2,2,1,1,1,3];
+
+$arr= array_unique($arr);
+
+print_r($arr);
+
+$arr = array_values($arr);
+
+print_r($arr);
