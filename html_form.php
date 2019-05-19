@@ -1,4 +1,4 @@
-<form action="gonder.php" method="post" enctype="multipart/form-data">
+<form action="get.php" method="get" enctype="multipart/form-data">
 
     Ad: <br>
     <input type="text" name="ad">
